@@ -1,0 +1,53 @@
+
+<Route path="/sports" element={<News pageSize = {6} country = 'in' category='sports'/>} />
+
+<Route path="/home" element={<News pageSize = {6} country = 'in' category='home'/>} />
+<Route path="/business" element={<News pageSize = {6} country = 'in' category='business'/>} />
+<Route path="/entertainment" element={<News pageSize = {6} country = 'in' category='entertainment'/>} />
+<Route path="/general" element={<News pageSize = {6} country = 'in' category='general'/>} />
+<Route path="/health" element={<News pageSize = {6} country = 'in' category='health'/>} />
+<Route path="/science" element={<News pageSize = {6} country = 'in' category='science'/>} />
+<Route path="/sports" element={<News pageSize = {6} country = 'in' category='sports'/>} />
+<Route path="/technology" element={<News pageSize = {6} country = 'in' category='technology'/>} />
+
+
+
+business
+entertainment
+general
+health
+science
+sports
+technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "code-runner.runInTerminal": true,
+    "workbench.editor.enablePreview": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDelete": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.colorDecoratorsLimit": 1500,
+    "window.zoomLevel": 1
+}
