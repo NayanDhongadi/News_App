@@ -1,0 +1,74 @@
+.contact{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    
+}
+.contactIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contactIcon img{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 20px rgb(44, 44, 83);
+
+}
+.iconicon span{
+    margin-right: 14px;
+}
+.contactForm textarea {
+    border-radius: 10px;
+}
+.contactForm input{
+    border-radius: 10px;
+}
+.contactForm{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.sbbtn{
+    background-color: rgb(74, 62, 123);
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(12, 10, 14);
+}
+
+
+
+@media (max-width: 600px){
+    
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        margin-left: -70px;
+    }
+    .iconicon{
+        margin-bottom: 30px;
+    }
+    .contactName h1 {
+        margin-left: -100px;
+    }
+
+    .contactIcon img {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .contactForm textarea {
+        width: 250px;
+        height: 200px;
+    }
+
+    .contactForm button{
+        margin: 10px 30px 20px 90px; 
+    }
+}

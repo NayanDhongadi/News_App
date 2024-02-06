@@ -1,0 +1,84 @@
+.navbar {
+    background-color: rgb(75, 84, 116);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar p {
+    margin-left: -10vw;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(241, 237, 145);
+    text-shadow: 2px 2px 5px black;
+}
+
+.navbar p span {
+    color: greenyellow;
+}
+
+.burger{
+    background-color: red;
+    height: 35px;
+    width: 50px;
+}
+.burger span{
+    width: 100%;
+    height: 20px;
+    color: black;
+}
+.dropDown {
+    display: block;
+    position: absolute;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: -50px;
+}
+
+.link {
+    margin-left: 20px;
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cat_link{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: none;
+    text-align:center;
+}
+.cat_link:hover{
+    color: black;
+}
+
+.link:hover {
+    color: aqua;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+    color: wheat;
+}
+
+/* dropdown menu style */
+.dropdown ul{
+    display: none;
+    background-color: rgb(75, 84, 116);
+}
+.cat span :hover .dropdown ul{
+    display: block;
+}
+
+/* =============  Mobile device  ============== */
+
+@media only screen and (max-width: 600px) {
+    .navbar ul{
+        display: none;
+    }
+  }
